@@ -1,0 +1,175 @@
+ .c1 p{
+  margin: 1em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+  }
+  .table>thead{
+    background-color:#a73a78;
+    border-style:solid;
+  }
+  .table th {
+    padding: 10px; 
+    background-color: #a73a78; 
+    text-align: center; 
+    font-weight: bold; 
+    border-bottom: 2px solid #ddd; 
+  }
+  
+  .container1{
+    padding:0; 
+    margin:0;
+  }
+  .container-fluid {
+      padding:0 rem;
+    }
+    
+    .dashboard {
+      
+      border-radius: 8px;
+    }
+    
+    h1 {
+      color: #343a40;
+      margin-bottom: 1.5rem;
+    }
+    
+    .border {
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .table {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    
+    .table th {
+      color: white;
+    }
+    
+    .table td {
+      vertical-align: middle;
+    }
+    .photo{
+      height: 100%;
+    }
+    
+ 
+    .dashboard1 {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .box1 {
+      flex: 0 0 25%; 
+      background-color: #f8f9fa; 
+      padding: 15px;
+    border-radius: 5px;
+    height: 100%;
+    width: 20;
+  }
+  
+  .box2 {
+    flex: 1; 
+    padding: 15px;
+    background-color: #fff; 
+    border-radius: 5px;
+    height: 100%;
+    width: 80%;
+    
+  }
+  
+  .border.shadow {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  .table td{
+    vertical-align: middle;
+  }
+  .table {
+    margin-bottom: 0;
+  }
+  
+  
+  
+  .box1 {
+    flex: 0 0 25%; 
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  .box2 {
+    flex: 1; 
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .border.shadow {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .table {
+    margin-bottom: 0;
+  }
+  
+  
+  
+  .box3 {
+    flex: 1; 
+    padding-left: 15px;
+  }
+  
+  .box3 p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
+  .container1{
+    margin: 0;
+  }
+  
+  .inner-box{
+    height: 15rem;
+  }
+  
+  .box3{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .box3 p{
+    font-size: 30px;
+    
+  }
+  
+  .c1{
+    align-self: center;
+    font-size:x-large;
+  }
+
+  th{
+    text-align:center;
+  }
+  td{
+    text-align:center;
+  }
+

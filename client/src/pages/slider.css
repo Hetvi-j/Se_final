@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+}
+
+.igText {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.followOnInstaMarqueeContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.carouselImg {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  animation: marqueeAnimation 20s linear infinite;
+  animation-play-state: running;
+}
+
+@keyframes marqueeAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+@media (max-width: 420px) {
+    .marquee img{
+      width: 7em;
+      height: 10em;
+    }
+
+}

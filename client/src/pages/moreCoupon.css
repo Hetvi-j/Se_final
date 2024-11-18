@@ -1,0 +1,20 @@
+.CouponSection {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+.image1Container, .image2Container {
+    flex: 1; 
+    margin: 5px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.Image1, .Image2 {
+    width: 100%; 
+    height: auto; 
+    max-width: 800px; 
+    object-fit: contain; 
+}

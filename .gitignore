@@ -1,0 +1,25 @@
+# Ignore environment variables
+.env
+
+# Ignore node_modules folder globally (front-end and back-end)
+node_modules/
+
+# Ignore logs and debug files
+*.log
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any IDE-specific or editor-specific files
+.vscode/
+.idea/
+
+# Ignore build directories (front-end build outputs, e.g., React build)
+client/build/
+client/dist/
+
+# Optionally, ignore the front-end directory entirely if you have a separate repo for it
+# client/
+

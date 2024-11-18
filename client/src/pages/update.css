@@ -1,0 +1,77 @@
+
+.con11 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 50%;
+    margin: auto;
+  }
+  
+  .con11 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .con11 form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .con11 input[type="text"],
+  .con11 input[type="number"],
+  .con11 input[type="date"],
+  .con11 select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .con11 input::placeholder {
+    font-family:'Courier New', Courier, monospace;
+    color: #888;
+  }
+ 
+  .con11 select {
+    font-weight: 400;
+  }
+
+  .con11 input[type="text"]:focus,
+  .con11 input[type="number"]:focus,
+  .con11 input[type="date"]:focus,
+  .con11 select:focus {
+    border-color: white;
+    outline: none;
+  }
+  
+  .con11 button[type="submit"] {
+    background-color: #a73a78;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .con11 button[type="submit"]:hover {
+    background-color: #cea19e;
+  }
+
+  @media (max-width: 768px) {
+    .con11 {
+      padding: 15px;
+    }
+    .con11 h1 {
+      font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+.bx1{
+    border-radius: 2px;
+}
+
+.box1{
+    height: 50px;
+    padding: top 100px;
+}
+@media (max-width: 420px) {
+    .col-md-8{
+        margin-top: 4em;
+        margin-right: 2em;
+        padding: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .form-container{
+        margin-right: 3em;
+    }
+    .container-fluid{
+        margin: 0px;
+    }
+}

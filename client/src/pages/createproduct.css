@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white; 
+    color: #333;
+  }
+  
+  .dashboard-container {
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .admin-menu-col {
+    background-color: #cea19e; 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-menu-col a {
+    color: black; 
+    background-color: #a73a78;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-menu-col a:hover {
+    background-color: white;
+  }
+  
+ 
+  .create-product-form {
+    background: linear-gradient(145deg, #f0f4f8, #e1e6ed); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1), -5px -5px 20px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+
+  .create-product-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; 
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e7f3ff;
+    padding-bottom: 10px;
+  }
+  
+  .form-control {
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+  }
+  
+  .upload-photo {
+    background-color: #e3f2fd; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: 2px dashed #007bff; 
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .upload-photo:hover {
+    background-color: #bbdefb; 
+    border-color: #0056b3; 
+  }
+  
+  
+  .create-product-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .create-product-btn:hover {
+    background-color: #218838; 
+    transform: translateY(-2px); 
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+    }
+  
+    .create-product-form {
+        padding: 25px;
+    }
+  
+    .create-product-heading {
+        font-size: 1.6rem;
+    }
+  
+    .form-control {
+        font-size: 1rem;
+    }
+  
+    .admin-menu-col {
+        padding: 15px;
+    }
+  }

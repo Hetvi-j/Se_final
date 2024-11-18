@@ -1,0 +1,26 @@
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.GifComponent {
+  width: 100%;
+  max-width: 1200px; 
+  height: auto; 
+}
+
+
+@media (max-width: 768px) {
+  .GifComponent {
+    max-width: 80%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .GifComponent {
+    max-width: 60%; 
+  }
+}

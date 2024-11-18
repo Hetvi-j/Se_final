@@ -1,0 +1,55 @@
+
+.form1 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+
+  .con1, .con2, .con3, .con4, .con5, .con6 {
+    margin-bottom: 15px;
+  }
+  .con1 input, .con2 input, .con3 input, .con4 input, .con5 input, .con6 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .con1 input:focus, .con2 input:focus, .con3 input:focus, .con4 input:focus, .con5 input:focus, .con6 input:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+  
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+

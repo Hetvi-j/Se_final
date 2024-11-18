@@ -1,0 +1,29 @@
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  margin-top: 60px;
+}
+
+.about-us-container h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-container p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-us-container p:last-child {
+  margin-bottom: 0;
+  padding-top: 10px;
+}

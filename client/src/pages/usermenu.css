@@ -1,0 +1,47 @@
+.user-menu-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-menu-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #8a1c2f;
+}
+.list-group {
+    background-color: transparent;
+    color: inherit; 
+
+    --bs-list-group-active-bg: #a73a78;
+    --bs-list-group-active-border-color: #ffffff;
+  }
+
+.list-group-item {
+    width: 250px;
+    height: 50px;
+    background-color: #a73a78;
+    color: white;
+    border-radius: 8px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    border: none;
+    font-size: 18px;
+}
+
+.list-group-item:hover {
+    background-color: #cea19e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.list-group-item:active {
+    background-color: #cea19e;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}

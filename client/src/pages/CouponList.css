@@ -1,0 +1,136 @@
+.con31{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+.con31 .btn-warning:focus,
+.con31 .btn-warning:active {
+  background-color: #a73a78;
+  color: white;
+
+}
+  
+  body {
+    overflow-x: hidden;
+  }
+    
+.con31 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+  }
+
+.dang1{
+    background-color: rgb(221, 54, 54);
+}
+.warn1{
+    background-color: #a73a78;
+}
+
+
+
+.con31 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .con31 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .con31 .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .con31 .table th,
+  .con31 .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .con31 .table th {
+    background-color: #a73a78;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .con31 .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .con31 .action-buttons {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+  }
+
+  .con31 .btn-warning,
+  .con31 .btn-danger {
+    padding: 8px 12px;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .con31 .btn-warning {
+    background-color: #a73a78;
+    color: white;
+  }
+  
+  .con31 .btn-warning:hover {
+    background-color: #cea19e;
+  }
+  
+  .con31 .btn-danger {
+    background-color: #a73a78;
+    color: white;
+  }
+  
+  .con31 .btn-danger:hover {
+    background-color: #cea19e;
+  }
+  
+
+  @media (max-width: 768px) {
+    .con31 {
+      padding: 15px;
+    }
+    .con31 h1 {
+      font-size: 20px;
+    }
+    .con31 .table th,
+    .con31 .table td {
+      font-size: 14px;
+    }
+    .con31 .btn-warning,
+    .con31 .btn-danger {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+
