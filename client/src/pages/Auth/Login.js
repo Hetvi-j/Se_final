@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://fashionflux.onrender.com/api/v1/auth/login", {
+      const res = await axios.post("http://fashionflux.onrender.com/api/v1/auth/login", {
         email,
         password,
       });
