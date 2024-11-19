@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1de02b14.css",
+    "main.js": "/static/js/main.176a510e.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/Sample.gif": "/static/media/Sample.2d5faebef01844f5e200.gif",
+    "static/media/poster.png": "/static/media/poster.bdbaac3dd9a3a77bf15d.png",
+    "static/media/5.png": "/static/media/5.a435e21fa2a547e4aed6.png",
+    "static/media/3.png": "/static/media/3.6242cf868254f6670ac4.png",
+    "static/media/1.png": "/static/media/1.4c422876b91370407fb4.png",
+    "static/media/4.png": "/static/media/4.77068d809ccf55a2121d.png",
+    "static/media/coupon.png": "/static/media/coupon.fc69965d34048a82ee59.png",
+    "static/media/2.png": "/static/media/2.76b58caaf35ca8d711b0.png",
+    "static/media/w.png": "/static/media/w.3a3b153a36299d9079fe.png",
+    "static/media/w1.png": "/static/media/w1.d4f05c6a863faabc2d7d.png",
+    "static/media/m.png": "/static/media/m.903a3a11386129b2ed50.png",
+    "static/media/c.png": "/static/media/c.91de4d41af0c9a7e5b9c.png",
+    "static/media/f.png": "/static/media/f.e292a66d03be4544f5fe.png",
+    "static/media/g.png": "/static/media/g.1ce17a83e058c5eda532.png",
+    "static/media/Group 21.png": "/static/media/Group 21.8537ca18f713284f767e.png",
+    "static/media/Group 20.png": "/static/media/Group 20.23b18968a26d00519eeb.png",
+    "static/media/one.png": "/static/media/one.d60a9650db1461f02f9a.png",
+    "static/media/logo.png": "/static/media/logo.cefaf765eab218fa242a.png",
+    "static/media/chandan.png": "/static/media/chandan.795b36267c57f143dfe6.png",
+    "static/media/chandan2.png": "/static/media/chandan2.4c395b9524472cf86d63.png",
+    "index.html": "/index.html",
+    "main.1de02b14.css.map": "/static/css/main.1de02b14.css.map",
+    "main.176a510e.js.map": "/static/js/main.176a510e.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de02b14.css",
+    "static/js/main.176a510e.js"
+  ]
+}
