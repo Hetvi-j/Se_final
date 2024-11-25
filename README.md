@@ -1,2 +1,1 @@
-"# Fashion_Flux" 
-"# Fashion_Flux" 
+# Fashion_Flux - an online shopping platform
