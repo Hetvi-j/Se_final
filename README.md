@@ -31,4 +31,20 @@ To run this project locally, follow these steps:
 7. Start the React app by nmp start command
 
 ## Screenshots
+Categories Page
+![image5](https://github.com/user-attachments/assets/399bb61b-2fbf-44ee-9981-a35d7142dac6)
+
+Admin Page
+![image4](https://github.com/user-attachments/assets/06117b6d-b72a-4714-bf28-a2f4ca20179c)
+
+Search Bar Page
+![image3](https://github.com/user-attachments/assets/63179fa8-c680-42bb-bbc6-acd76ba48b72)
+
+ Add to cart and Payment Page
+![image1](https://github.com/user-attachments/assets/64f6a9a1-31bf-4bff-931d-adfc771db72d)
+
+
+
+
+
 
