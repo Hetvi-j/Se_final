@@ -45,7 +45,7 @@ Search Bar Page
 
 
 
-## This project was developed as a part of our SE(software Engineering) project in 5th semester by out IITRAM students
+## This project was developed as a part of our SE(software Engineering) project in 5th semester by our IITRAM students
 
 
 
